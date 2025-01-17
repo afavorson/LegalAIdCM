@@ -1,4 +1,50 @@
 #root {
   margin: 0 auto;
+  padding: 0;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+
+}
+
+#main #navbar {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  background: #E8F0FE;
+  border-radius: 0 0 4px 4px;
+}
+
+/* #main #navbar img {
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+} */
+
+#Logo{
+  font-size: 25px;
+  font-weight: 700;
+  color: #2a57c4;
+  text-decoration: none;
+  
+}
+
+#main #navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+#main #navbar ul li{
+  list-style: none;
+  padding: 4px 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1A73E8;
+  cursor: pointer;
+  /* color: #2a57c4; */
 }
 
